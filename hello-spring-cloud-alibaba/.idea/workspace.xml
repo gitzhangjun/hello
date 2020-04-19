@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="df0e977a-0bf5-421e-bcbc-47e8c52b0f5c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="true" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="true" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="true" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="edu_bit_shop" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="edu_bit_shop" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="edu_bit_shop" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="edu_bit_shop: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="edu_bit_shop" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="edu_bit_shop: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="edu_bit_shop" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="edu_bit_shop: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="admin: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="edu_bit_shop" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="edu_bit_shop: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="cart: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="edu_bit_shop" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="edu_bit_shop: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="cart: table" type="285a2a93:MysqlImplModel$Table" />
+        <item name="columns" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="edu_bit_shop" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="edu_bit_shop: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="course: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="edu_bit_shop" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="edu_bit_shop: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="course: table" type="285a2a93:MysqlImplModel$Table" />
+        <item name="columns" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="edu_bit_shop" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="edu_bit_shop: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="course_order: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="edu_bit_shop" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="edu_bit_shop: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="course_order: table" type="285a2a93:MysqlImplModel$Table" />
+        <item name="columns" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="hello-spring-cloud-alibaba" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../apache-maven-3.6.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="createModuleGroups" value="true" />
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YEifjdwJuCCUWLrdkAJWtSlCaj" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/hello-spring-cloud-alibaba-nacos-provider/src/main/java/com/shop/course" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hello-spring-cloud-alibaba-shop-food" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.39425287" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.sjhy.plugin.ui.TypeMapperSetting" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/hello-spring-cloud-alibaba-shop-food" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.shop.course.admin.controller" />
+      <recent name="com.shop.course.admin.entity" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8081/actuator/heapdump" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/octet-stream" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8081/actuator/health" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/vnd.spring-boot.actuator.v2+json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8081/actuator/nacos-discovery" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/vnd.spring-boot.actuator.v2+json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8081/actuator/service-registry" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/vnd.spring-boot.actuator.v2+json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.IDWorker">
+    <configuration name="IDWorker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shop.course.util.IDWorker" />
+      <module name="hello-spring-cloud-alibaba-nacos-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shop.course.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shop.ShopApplication" />
+      <module name="hello-spring-cloud-alibaba-nacos-provider" />
+      <option name="PROGRAM_PARAMETERS" value="-XX:+PrintGCDetails -Xmx1024M -Xms520M  -Dspring.jmx.enabled=false -XX:TieredStopAtLevel=1 " />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shop.food.Test" />
+      <module name="hello-spring-cloud-alibaba-nacos-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shop.food.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in hello-spring-cloud-alibaba-nacos-provider" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello-spring-cloud-alibaba-nacos-provider" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacosConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hello-spring-cloud-alibaba-nacos-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.funtl.hello.spring.cloud.alibaba.nacos.consumer.NacosConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacosConsumerFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hello-spring-cloud-alibaba-nacos-consumer-feign" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.funtl.hello.spring.cloud.alibaba.nacos.consumer.feign.NacosConsumerFeignApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacosProviderApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hello-spring-cloud-alibaba-nacos-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.funtl.hello.spring.cloud.alibaba.nacos.provider.NacosProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="hello-spring-cloud-alibaba-nacos-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shop.ShopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.IDWorker" />
+      <item itemvalue="Application.ShopApplication" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="JUnit.All in hello-spring-cloud-alibaba-nacos-provider" />
+      <item itemvalue="Spring Boot.NacosConsumerApplication" />
+      <item itemvalue="Spring Boot.NacosConsumerFeignApplication" />
+      <item itemvalue="Spring Boot.NacosProviderApplication (1)" />
+      <item itemvalue="Spring Boot.ShopApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.IDWorker" />
+        <item itemvalue="Application.ShopApplication" />
+        <item itemvalue="Spring Boot.ShopApplication" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="JUnit.All in hello-spring-cloud-alibaba-nacos-provider" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:edu_bit_shop" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:edu_bit_shop" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@5e94a939" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:edu_bit_shop" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@168c62f2" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df0e977a-0bf5-421e-bcbc-47e8c52b0f5c" name="Default Changelist" comment="" />
+      <created>1582514259212</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582514259212</updated>
+      <workItem from="1582514260531" duration="827000" />
+      <workItem from="1582515129918" duration="1590000" />
+      <workItem from="1582517655248" duration="42189000" />
+      <workItem from="1584784275002" duration="38770000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="127" key="#Project_Structure" timestamp="1584784324167">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="320" y="127" key="#Project_Structure/0.23.1440.877@0.23.1440.877" timestamp="1584784324167" />
+    <state x="320" y="127" key="#Scopes" timestamp="1582517553218">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="320" y="127" key="#Scopes/0.23.1440.877@0.23.1440.877" timestamp="1582517553218" />
+    <state x="192" y="224" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585313989241">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="192" y="224" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1585313989241" />
+    <state x="515" y="274" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1585313421734">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="515" y="274" key="#com.intellij.ide.macro.MacrosDialog/0.23.1440.877@0.23.1440.877" timestamp="1585313421734" />
+    <state x="466" y="169" key="#com.intellij.ide.util.MemberChooser" timestamp="1585304542232">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="466" y="169" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1585304542232" />
+    <state x="458" y="244" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1584871834404">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="458" y="244" key="#com.intellij.ide.util.PackageChooserDialog/0.23.1440.877@0.23.1440.877" timestamp="1584871834404" />
+    <state x="524" y="394" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1584262533404">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="524" y="394" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.877@0.23.1440.877" timestamp="1584262533404" />
+    <state x="395" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584881951673">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="395" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.877@0.23.1440.877" timestamp="1584881951673" />
+    <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1585306148524">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="254" height="195" key="DatabaseViewActions_Filter/0.23.1440.877@0.23.1440.877" timestamp="1585306148524" />
+    <state width="401" height="466" key="DebuggerActiveHint" timestamp="1585315312711">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="401" height="466" key="DebuggerActiveHint/0.23.1440.877@0.23.1440.877" timestamp="1585315312711" />
+    <state x="508" y="214" key="FileChooserDialogImpl" timestamp="1582530775102">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="508" y="214" key="FileChooserDialogImpl/0.23.1440.877@0.23.1440.877" timestamp="1582530775102" />
+    <state width="1398" height="285" key="GridCell.Tab.0.bottom" timestamp="1587221688112">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="285" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1587221688112" />
+    <state width="1398" height="285" key="GridCell.Tab.0.center" timestamp="1587221688110">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="285" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1587221688110" />
+    <state width="1398" height="285" key="GridCell.Tab.0.left" timestamp="1587221688110">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="285" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1587221688110" />
+    <state width="1398" height="285" key="GridCell.Tab.0.right" timestamp="1587221688111">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="285" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1587221688111" />
+    <state width="1398" height="285" key="GridCell.Tab.1.bottom" timestamp="1587221688113">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="285" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1587221688113" />
+    <state width="1398" height="285" key="GridCell.Tab.1.center" timestamp="1587221688112">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="285" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1587221688112" />
+    <state width="1398" height="285" key="GridCell.Tab.1.left" timestamp="1587221688112">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="285" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1587221688112" />
+    <state width="1398" height="285" key="GridCell.Tab.1.right" timestamp="1587221688113">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="285" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1587221688113" />
+    <state width="958" height="280" key="GridCell.Tab.2.bottom" timestamp="1584280999255">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="958" height="280" key="GridCell.Tab.2.bottom/0.23.1440.877@0.23.1440.877" timestamp="1584280999255" />
+    <state width="958" height="280" key="GridCell.Tab.2.center" timestamp="1584280999253">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="958" height="280" key="GridCell.Tab.2.center/0.23.1440.877@0.23.1440.877" timestamp="1584280999253" />
+    <state width="958" height="280" key="GridCell.Tab.2.left" timestamp="1584280999253">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="958" height="280" key="GridCell.Tab.2.left/0.23.1440.877@0.23.1440.877" timestamp="1584280999253" />
+    <state width="958" height="280" key="GridCell.Tab.2.right" timestamp="1584280999254">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="958" height="280" key="GridCell.Tab.2.right/0.23.1440.877@0.23.1440.877" timestamp="1584280999254" />
+    <state width="234" height="457" key="HiddenNamespacesPopup" timestamp="1584244165415">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="234" height="457" key="HiddenNamespacesPopup/0.23.1440.877@0.23.1440.877" timestamp="1584244165415" />
+    <state x="349" y="162" key="NewModule_or_Project.wizard" timestamp="1582532206466">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="349" y="162" key="NewModule_or_Project.wizard/0.23.1440.877@0.23.1440.877" timestamp="1582532206466" />
+    <state x="208" y="43" key="SettingsEditor" timestamp="1585313951573">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="208" y="43" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1585313951573" />
+    <state width="720" height="438" key="XDebugger.FullValuePopup" timestamp="1584280708642">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="720" height="438" key="XDebugger.FullValuePopup/0.23.1440.877@0.23.1440.877" timestamp="1584280708642" />
+    <state x="515" y="246" key="chooseDestDirectoryDialog" timestamp="1584285052821">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="515" y="246" key="chooseDestDirectoryDialog/0.23.1440.877@0.23.1440.877" timestamp="1584285052821" />
+    <state x="621" y="309" width="342" height="304" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1584248292298">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="621" y="309" width="342" height="304" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.23.1440.877@0.23.1440.877" timestamp="1584248292298" />
+    <state x="449" y="152" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1585314600439">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="449" y="152" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.23.1440.877@0.23.1440.877" timestamp="1585314600439" />
+    <state x="369" y="138" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1584784491404">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="369" y="138" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.877@0.23.1440.877" timestamp="1584784491404" />
+    <state x="114" y="84" key="new project wizard" timestamp="1584880910527">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="114" y="84" key="new project wizard/0.23.1440.877@0.23.1440.877" timestamp="1584880910527" />
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1585303965546">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1585303965546" />
+    <state x="21" y="152" key="spring file set editor" timestamp="1582528179842">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="21" y="152" key="spring file set editor/0.23.1440.877@0.23.1440.877" timestamp="1582528179842" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hello-spring-cloud-alibaba-nacos-provider/src/main/java/com/shop/course/course_order/controller/CourseOrderController.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

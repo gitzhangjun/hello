@@ -1,0 +1,3 @@
+com/funtl/hello/spring/cloud/alibaba/nacos/consumer/config/NacosConsumerConfiguration.class
+com/funtl/hello/spring/cloud/alibaba/nacos/consumer/controller/NacosConsumerController.class
+com/funtl/hello/spring/cloud/alibaba/nacos/consumer/NacosConsumerApplication.class

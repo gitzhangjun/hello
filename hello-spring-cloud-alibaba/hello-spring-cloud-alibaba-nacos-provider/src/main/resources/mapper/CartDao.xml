@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.shop.course.cart.dao.CartDao">
+
+    <resultMap type="com.shop.course.cart.entity.Cart" id="CartMap">
+        <result property="id" column="id" jdbcType="BIGINT"/>
+        <result property="userId" column="user_id" jdbcType="BIGINT"/>
+        <result property="courseId" column="course_id" jdbcType="BIGINT"/>
+        <result property="quantity" column="quantity" jdbcType="INTEGER"/>
+        <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+        <result property="updateTime" column="update_time" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+
+    <!--查询用户购物车记录-->
+    <select id="queryByUserIdAndCourseId" resultMap="CartMap">
+        select
+          id, user_id, course_id, quantity, create_time, update_time
+        from edu_bit_shop.cart
+        <where>
+
+        <if test="userId != null">
+            and user_id = #{userId}
+        </if>
+        <if test="courseId != null">
+            and course_id = #{courseId}
+        </if>
+        </where>
+    </select>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="CartMap">
+        select
+          id, user_id, course_id, quantity, create_time, update_time
+        from edu_bit_shop.cart
+        where id = #{id}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="CartMap">
+        select
+          id, user_id, course_id, quantity, create_time, update_time
+        from edu_bit_shop.cart
+        limit #{offset}, #{limit}
+    </select>
+
+    <!--通过实体作为筛选条件查询-->
+    <select id="queryAll" resultMap="CartMap">
+        select
+          id, user_id, course_id, quantity, create_time, update_time
+        from edu_bit_shop.cart
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="userId != null">
+                and user_id = #{userId}
+            </if>
+            <if test="courseId != null">
+                and course_id = #{courseId}
+            </if>
+            <if test="quantity != null">
+                and quantity = #{quantity}
+            </if>
+            <if test="createTime != null">
+                and create_time = #{createTime}
+            </if>
+            <if test="updateTime != null">
+                and update_time = #{updateTime}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert">
+        insert into edu_bit_shop.cart(id,user_id, course_id, quantity, create_time, update_time)
+        values (#{id}, #{userId}, #{courseId}, #{quantity}, #{createTime}, #{updateTime})
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update edu_bit_shop.cart
+        <set>
+            <if test="userId != null">
+                user_id = #{userId},
+            </if>
+            <if test="courseId != null">
+                course_id = #{courseId},
+            </if>
+            <if test="quantity != null">
+                quantity = #{quantity},
+            </if>
+            <if test="createTime != null">
+                create_time = #{createTime},
+            </if>
+            <if test="updateTime != null">
+                update_time = #{updateTime},
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from edu_bit_shop.cart where id = #{id}
+    </delete>
+
+</mapper>

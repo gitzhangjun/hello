@@ -1,0 +1,26 @@
+GET http://127.0.0.1:8081/actuator/heapdump
+Accept: application/octet-stream
+
+<> 2020-02-24T034745.200.txt
+
+###
+
+GET http://127.0.0.1:8081/actuator/health
+Accept: application/vnd.spring-boot.actuator.v2+json
+
+<> 2020-02-24T034638.200.json
+
+###
+
+GET http://127.0.0.1:8081/actuator/nacos-discovery
+Accept: application/vnd.spring-boot.actuator.v2+json
+
+<> 2020-02-24T034616.200.json
+
+###
+
+GET http://127.0.0.1:8081/actuator/service-registry
+Accept: application/vnd.spring-boot.actuator.v2+json
+
+###
+

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.shop.food.admin.dao.AdminDao">
+
+    <resultMap type="com.shop.food.admin.entity.Admin" id="AdminMap">
+        <result property="id" column="id" jdbcType="INTEGER"/>
+        <result property="account" column="account" jdbcType="VARCHAR"/>
+        <result property="passwd" column="passwd" jdbcType="VARCHAR"/>
+        <result property="mobile" column="mobile" jdbcType="VARCHAR"/>
+        <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+        <result property="updateTime" column="update_time" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <select id="queryById" resultMap="AdminMap">
+        select
+          id, account, mobile, create_time, update_time
+        from edu_bit_shop.admin
+        where id = #{id}
+    </select>
+
+
+    <!--查询单个-->
+    <select id="queryByAccount" resultMap="AdminMap">
+        select
+          id, account, mobile, create_time, update_time
+        from edu_bit_shop.admin
+        where account = #{account}
+    </select>
+
+
+    <select id="login" resultMap="AdminMap">
+        select
+          id, account,  mobile, create_time, update_time
+        from edu_bit_shop.admin
+        where account = #{account} and passwd = #{passwd}
+    </select>
+
+    <select id="queryCount" parameterType="java.lang.String" resultType="java.lang.Integer">
+        select
+          count(id)
+        from edu_bit_shop.admin
+        where 1=1
+            and  account like '%${account}%'
+    </select>
+
+    <select id="queryAllByLimit" resultMap="AdminMap">
+        select
+          id, account, mobile, create_time, update_time
+        from edu_bit_shop.admin
+        where 1=1 and  account like '%${account}%'
+        limit #{offset}, #{limit}
+    </select>
+
+    <select id="queryAll" resultMap="AdminMap">
+        select
+          id, account, mobile, create_time, update_time
+        from edu_bit_shop.admin
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="account != null and account != ''">
+                and account = #{account}
+            </if>
+            <if test="passwd != null and passwd != ''">
+                and passwd = #{passwd}
+            </if>
+            <if test="mobile != null and mobile != ''">
+                and mobile = #{mobile}
+            </if>
+            <if test="createTime != null">
+                and create_time = #{createTime}
+            </if>
+            <if test="updateTime != null">
+                and update_time = #{updateTime}
+            </if>
+        </where>
+    </select>
+
+    <insert id="insert" keyProperty="id" useGeneratedKeys="true">
+        insert into edu_bit_shop.admin(account, passwd, mobile, create_time, update_time)
+        values (#{account}, #{passwd}, #{mobile}, #{createTime}, #{updateTime})
+    </insert>
+
+    <update id="update">
+        update edu_bit_shop.admin
+        <set>
+            <if test="account != null and account != ''">
+                account = #{account},
+            </if>
+            <if test="passwd != null and passwd != ''">
+                passwd = #{passwd},
+            </if>
+            <if test="mobile != null and mobile != ''">
+                mobile = #{mobile},
+            </if>
+            <if test="createTime != null">
+                create_time = #{createTime},
+            </if>
+            <if test="updateTime != null">
+                update_time = #{updateTime},
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <delete id="deleteById">
+        delete from edu_bit_shop.admin where id = #{id}
+    </delete>
+
+</mapper>

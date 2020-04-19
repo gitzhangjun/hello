@@ -1,0 +1,3 @@
+/Users/zhangjun/Desktop/code/demo/hello-spring-cloud-alibaba/hello-spring-cloud-alibaba-consumer-feign/src/main/java/com/funtl/hello/spring/cloud/alibaba/nacos/consumer/feign/controller/NacosConsumerFeignController.java
+/Users/zhangjun/Desktop/code/demo/hello-spring-cloud-alibaba/hello-spring-cloud-alibaba-consumer-feign/src/main/java/com/funtl/hello/spring/cloud/alibaba/nacos/consumer/feign/service/EchoService.java
+/Users/zhangjun/Desktop/code/demo/hello-spring-cloud-alibaba/hello-spring-cloud-alibaba-consumer-feign/src/main/java/com/funtl/hello/spring/cloud/alibaba/nacos/consumer/feign/NacosConsumerFeignApplication.java
